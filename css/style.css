@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.curso {
+    display:inline-block;
+    vertical-align: top;
+    font-family: Verdana, sans-serif;
+    border: solid 1px #CCC;
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px 0 rgba(0, 0, 0, 0.2);
+    height: 320px;
+    width: 260px;
+    margin: 5px 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.curso img {
+    border-radius: 8px;
+    width: 100%;
+    max-height: 50%;
+
+}
+
+.curso-info {
+    padding:10px;
+    height: 120px;
+    overflow: hidden;
+}
+
+
+.curso-info h4 {
+    font-size:1.4rem;
+    font-weight:100;
+
+}
+.curso-preco {
+    float: right;
+    padding:10px;
+
+}
+
+.preco-de {
+    text-decoration: line-through;
+    color: firebrick;
+}
+
+.preco-por {
+    color: green;
+    font-weight: bold;
+    font-size: 1.4em;
+}
